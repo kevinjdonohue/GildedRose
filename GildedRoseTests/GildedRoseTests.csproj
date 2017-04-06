@@ -58,14 +58,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GildedRoseTests.cs" />
+    <Compile Include="AgedItemQualityCalculatorTests.cs" />
+    <Compile Include="BackstagePassItemQualityCalculatorTests.cs" />
+    <Compile Include="DefaultItemQualityCalculatorTests.cs" />
+    <Compile Include="InventoryManagerTests.cs" />
+    <Compile Include="LegendaryItemQualityCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GuildedRose\GildedRose.csproj">
+    <ProjectReference Include="..\GildedRose\GildedRose.csproj">
       <Project>{606D2D6A-D524-4CF4-B27C-B1FB331F392D}</Project>
       <Name>GildedRose</Name>
     </ProjectReference>
