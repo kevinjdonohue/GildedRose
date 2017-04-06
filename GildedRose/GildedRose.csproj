@@ -42,16 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="QualityCalculators\AgedItemQualityCalculator.cs" />
-    <Compile Include="QualityCalculators\BackstagePassItemQualityCalculator.cs" />
-    <Compile Include="QualityCalculators\BaseQualityCalculator.cs" />
-    <Compile Include="QualityCalculators\DefaultItemQualityCalculator.cs" />
+    <Compile Include="IInventoryService.cs" />
+    <Compile Include="InventoryService.cs" />
+    <Compile Include="QualityCalculator\AgedItemQualityCalculator.cs" />
+    <Compile Include="QualityCalculator\BackstagePassItemQualityCalculator.cs" />
+    <Compile Include="QualityCalculator\BaseQualityCalculator.cs" />
+    <Compile Include="QualityCalculator\DefaultItemQualityCalculator.cs" />
     <Compile Include="InventoryManager.cs" />
-    <Compile Include="QualityCalculators\IQualityCalculator.cs" />
+    <Compile Include="QualityCalculator\IQualityCalculator.cs" />
     <Compile Include="Factory\IQualityCalculatorFactory.cs" />
     <Compile Include="Entities\Item.cs" />
-    <Compile Include="QualityCalculators\LegendaryItemQualityCalculator.cs" />
-    <Compile Include="QualityCalculators\NoOpQualityCalculator.cs" />
+    <Compile Include="QualityCalculator\LegendaryItemQualityCalculator.cs" />
+    <Compile Include="QualityCalculator\NoOpQualityCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Factory\QualityCalculatorFactory.cs" />

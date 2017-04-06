@@ -58,11 +58,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AgedItemQualityCalculatorTests.cs" />
-    <Compile Include="BackstagePassItemQualityCalculatorTests.cs" />
-    <Compile Include="DefaultItemQualityCalculatorTests.cs" />
+    <Compile Include="QualityCalculatorTests\AgedItemQualityCalculatorTests.cs" />
+    <Compile Include="QualityCalculatorTests\BackstagePassItemQualityCalculatorTests.cs" />
+    <Compile Include="QualityCalculatorTests\DefaultItemQualityCalculatorTests.cs" />
     <Compile Include="InventoryManagerTests.cs" />
-    <Compile Include="LegendaryItemQualityCalculatorTests.cs" />
+    <Compile Include="QualityCalculatorTests\LegendaryItemQualityCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
