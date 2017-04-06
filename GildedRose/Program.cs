@@ -1,4 +1,6 @@
-﻿namespace GildedRose
+﻿using GildedRose.Factory;
+
+namespace GildedRose
 {
     public class Program
     {

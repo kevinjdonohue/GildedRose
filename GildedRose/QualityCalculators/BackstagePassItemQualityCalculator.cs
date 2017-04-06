@@ -1,15 +1,12 @@
-﻿using System;
+﻿using GildedRose.Entities;
 
-namespace GildedRose
+namespace GildedRose.QualityCalculators
 {
-    public class BackstagePassItemQualityCalculator : IQualityCalculator
+    public class BackstagePassItemQualityCalculator : BaseQualityCalculator, IQualityCalculator
     {
         public void UpdateQuality(Item item)
         {
-            if (item == null)
-            {
-                throw new ArgumentNullException(nameof(item), "The item was null.");
-            }
+            ValidateItem(item);
 
             item.SellIn--;
             item.Quality++;

@@ -1,5 +1,7 @@
 ﻿using FluentAssertions;
 using GildedRose;
+using GildedRose.Entities;
+using GildedRose.QualityCalculators;
 using Xunit;
 
 namespace GildedRoseTests

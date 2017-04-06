@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using FluentAssertions;
 using GildedRose;
+using GildedRose.Entities;
+using GildedRose.Factory;
 using Xunit;
 
 namespace GildedRoseTests
